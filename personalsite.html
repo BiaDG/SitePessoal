@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
+    <link rel="stylesheet" href="css/personalsite.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal</title>
+    <script defer src="js/personalsite.js"></script>
+</head>
+<body>      
+    <header>
+        <div>
+            <h1 id="nome">Beatriz Gomes</h1>
+            <h2 id="profissao">Profissional de Multimédia</h2>
+        </div>
+        <div id="menu">
+            <button onclick="nav('inicio')" class="button active" id="inicio">início</button>
+            <h2>|</h2>
+            <button onclick="nav('sobre')" class="button" id="sobre">sobre</button>
+            <h2>|</h2>
+            <button onclick="nav('projetos')" class="button" id="projetos">projetos</button>
+            <h2>|</h2>
+            <button onclick="nav('contactos')" class="button" id="contactos">contactos</button>
+        </div>
+        <div>
+           <button onclick="togglelang('en')" class="button" id="en">en</button>
+           <h2>|</h2>
+            <button onclick="togglelang('pt')" class="button active" id="pt">pt</button>
+        </div>
+    </header>
+    <main>
+        <section id="buttaoinicio">
+            <img id="perfil" src="imgs/fotoperfil.png">
+            <div id="apresentacao">Nem tudo está nesta página, mas aqui começa a minha história.</div>
+        </section>
+        <section class="hide" id="buttaosobre">
+            <div>
+                <button onclick="togglecategory('quemsou')" class="button active" id="quemsou">QUEM SOU?</button>
+                <button onclick="togglecategory('gostos')" class="button" id="gostos">GOSTOS</button>
+                <button onclick="togglecategory('passado')" class="button" id="passado">PASSADO</button>
+                <button onclick="togglecategory('futuro')" class="button" id="futuro">FUTURO</button>
+            </div>
+            <p id="sobretexto">Olá! O meu nome é Beatriz Dias Gomes, atualmente tenho 15 anos, nasci no dia 20 de setembro de 2009. Entrei na escola EPAD em setembro de 2024 e escolhi o curso profissional de Multimédia porque sempre tive interesse por criatividade, tecnologia e comunicação visual. Desde pequena, gosto de desenhar, criar coisas e explorar novas formas de me expressar. Com o curso, estou a aprender a usar ferramentas digitais como Photoshop, Illustrator, Premiere e outras que me ajudam a transformar ideias em projetos reais. Considero-me uma pessoa curiosa, determinada e com vontade de aprender sempre mais. No futuro, gostava de trabalhar numa área onde possa juntar arte e tecnologia! Como design gráfico, edição de vídeo ou até mesmo animação ou desenvolvimento de jogos. Este site é o início da minha jornada, onde vou partilhar um pouco do que sou e do que crio.</p>
+        </section>
+        <section class="hide" id="buttaoprojetos">
+            <section class="disciplina" id="SI - Sistemas de Informação">
+                <div class="todoproj">
+                    <img class="fotoproj" src="imgs/#">
+                    <h3 class="dataproj">Data</h3>
+                    <p class="textoproj">O que é</p>
+                </div>
+                <div class="todoproj">
+                    <img class="fotoproj" src="imgs/#">
+                    <h3 class="dataproj">Data</h3>
+                    <p class="textoproj">O que é</p>
+                </div>
+                <div class="todoproj">
+                    <img class="fotoproj" src="imgs/#">
+                    <h3 class="dataproj">Data</h3>
+                    <p class="textoproj">O que é</p>
+                </div>
+            </section>
+        </section>
+        <section class="hide" id="buttaocontactos">
+            <div id="qrcode">
+                <img class="qrcode" src="imgs/qrcodeinsta.png">
+                <img class="qrcode" src="imgs/qrcodewhatsapp.jpg">
+            </div>
+            <div id="email">
+                <p>Email Profissional: aluno224168@epad.edu.pt<hr>Email Pessoal: beatrizdiasgomes20@gmail.com</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Beatriz Gomes</p>
+        <div id="socials">
+            <a href="https://www.instagram.com/beatriz_.d.g/" target="_blank">Instagram</a>
+            <a href="https://github.com/teu_user" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
