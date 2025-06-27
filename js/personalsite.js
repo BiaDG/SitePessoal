@@ -3,10 +3,22 @@ function togglelang(lang){
     if (lang === 'pt'){
         document.getElementById('pt').classList.add('active');
         document.getElementById('en').classList.remove('active');
+        document.getElementById('profissao').innerHTML="Profissional de Multimédia"
+        document.getElementById('apresentacao').innerHTML="Nem tudo está nesta página, mas aqui começa a minha história."
+        document.getElementById('inicio').innerHTML="Início"
+        document.getElementById('sobre').innerHTML="Sobre"
+        document.getElementById('projetos').innerHTML="Projetos"
+        document.getElementById('contactos').innerHTML="Contactos"
     }
     else if (lang === 'en'){
         document.getElementById('en').classList.add('active');
         document.getElementById('pt').classList.remove('active');
+        document.getElementById('profissao').innerHTML="Multimedia Professional"
+        document.getElementById('apresentacao').innerHTML="Not everything is on this page, but this is where my story begins."
+        document.getElementById('inicio').innerHTML="Home"
+        document.getElementById('sobre').innerHTML="About"
+        document.getElementById('projetos').innerHTML="Projects"
+        document.getElementById('contactos').innerHTML="Contacts"
     }
 }
 

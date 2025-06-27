@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/teste.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <script defer src="js/teste.js"></script>
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <button class="button active" id="sobrenav" onclick="nav('sobre')">Sobre</button>
+            <button class="button" id="projetonav" onclick="nav('projeto')">Projetos</button>
+            <button class="button" id="contactonav" onclick="nav('contacto')">Contactos</button>
+            <div id="buttons">
+                <button class="button" id="en" onclick="togglelang('en')">en</button>
+                <h2>|</h2>
+                <button class="button active" id="pt" onclick="togglelang('pt')">pt</button>
+            </div>
+            <button class="button" id="tema" onclick="tema()">Escuro</button>
+        </div>
+    </header>
+    <section id="sobre">
+        <div id="divum">
+            <div id="divdois">
+                <img id="perfil" src="imgs/euprofissional.jpg">
+                <h1 id="nome">Beatriz Gomes</h1>
+                <h2 class="hide" id="curso">Aluna do 1º ano do Curso Profissional de Multimédia</h2>
+                <p class="hide" id="disciplina"><strong>Disciplinas:</strong><br><br>Português<br>Inglês<br>Área de Integração<br>Tecnologias de Informação e Comunicação<br>Educação Física<br>História<br>Matemática<br>Física<br>Sistemas de Informação<br>Design, Comunicação e Audiovisuais<br>Técnicas de Multimédia</p>
+            </div>
+            <div id="divtres">
+                <p>Olá! O meu nome é Beatriz Gomes, tenho 15 anos e estou na escola EPAD, Escola Profissional de Artes, Tecnologias e Desporto. Estou no 1º ano do curso profissional de multimédia, eu aprendo como me comportar em um ambiente profissional, aprendo a programar, interpretar, perceber e fazer autónomamente. A minha disciplina favorita é SI, ao seja, Sistemas de Informação, onde aprendo a programar e criar websites!</p>
+                <button class="button active" id="ver" onclick="vermais()">Ver Mais</button>
+            </div>
+        </div>
+    </section>
+    <section id="sobremim">
+        <div>
+            <h1>Sobre Mim</h1>
+            <p id="abilities"></p>
+            <p id="certifications"></p>
+            <p id="skills"></p>
+            <a id="cv" href="imgs/cs/214_03_Beatriz_M_04_CD_page-0001.jpg" download="file">CV Download</a>
+        </div>
+    </section>
+    <section id="projeto">
+        <div class="exercicio">
+            <h2 class="tipo"></h2>
+            <img src="">
+            <h3 class="titulo"></h3>
+            <p class="descricao"></p>
+        </div>
+    </section>
+    <section id="contacto">
+        <p id="email"></p>
+        <div class="redesocial">
+            <img src="">
+            <a href=""></a>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <a id="insta"><img src=""></a>
+        </div>
+    </footer>
+</body>
+</html>

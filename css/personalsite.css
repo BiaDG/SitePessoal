@@ -4,6 +4,10 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+p{
+    margin: 0;
+    margin-top: 5px;
+}
 h1{
     font-size: 40px;
 }
@@ -15,6 +19,15 @@ h2{
 }
 h3{
     font-size: 20px;
+}
+.direction-vertical{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.direction-vertical h2{
+    color: white;
 }
 button{
     font-family: inherit;
@@ -145,11 +158,11 @@ section#buttaocontactos{
     margin-left: 50px;
 }
 #email{
-    height: 100px;
+    height: 60px;
     width: 400px;
     border-radius: 25px;
     background-color: #1c3052;
-    padding: 30px;
+    padding: 25px;
     text-align: center;
 }
 .qrcode{
@@ -161,9 +174,6 @@ section#buttaocontactos{
 #qrcode{
     display: flex;
     flex-direction: row;
-}
-section#buttaocontactos div{
-    padding: 50px;
 }
 .fotoproj{
     height: 300px;
